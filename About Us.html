@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>About Us</title> 
+
+        </head>
+        <body style="background-color: rgb(247, 231, 205);">
+            <ul style="list-style: none; margin: 0; padding: 0; overflow: hidden; background-color: black;">
+                <li style="float: left;"><a style=" display: block; color: white;  text-align: center;  padding: 14px 16px; text-decoration: none;" class="active" href="file:///C:/Users/heba1/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Cloudy%20Drink/HOME%20PAGE/Home%20page.html">Home</a></li>
+                <li style="float: left;"><a style=" display: block; color: white;  text-align: center;  padding: 14px 16px; text-decoration: none;" href="file:///C:/Users/heba1/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Cloudy%20Drink/HOT%20DRINKS/Hot%20Drinks.html">Hot Drinks</a></li>
+                <li style="float: left;"><a style=" display: block; color: white;  text-align: center;  padding: 14px 16px; text-decoration: none;" href="ffile:///C:/Users/heba1/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Cloudy%20Drink/cold%20drinks/Cold%20Drinks.html">Cold Drinks</a></li>
+                <li style="float: left;"><a style=" display: block; color: white;  text-align: center;  padding: 14px 16px; text-decoration: none;" href="file:///C:/Users/heba1/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Cloudy%20Drink/Cuntact%20Us.html">Contact Us</a></li>
+                <li style="float: left;"><a style=" display: block; color: white;  text-align: center;  padding: 14px 16px; text-decoration: none;" href="file:///C:/Users/heba1/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Cloudy%20Drink/About%20Us.html">About Us</a></li>
+              </ul>
+            <ul style="position: relative; left: 500px; top: 150px; font-size: 30px;" class="random">
+                <li>Name: Heba Saeed </li>
+                <li>ID: 441007892</li>
+                <li>Major: Computer Science</li>
+                </ul>
+
+
+                    <script>
+                        var uls = document.querySelectorAll('ul.random');
+                        for (var j = 0; j < uls.length; j++) {
+                        var ul = uls.item(j);
+                        for (var i = ul.children.length; i >= 0; i--) {
+                        ul.appendChild(ul.children[Math.random() * i | 0]);
+                        }
+                        }
+                    </script>
+        </body>

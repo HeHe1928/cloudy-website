@@ -1,0 +1,50 @@
+body{
+
+    background-image: url(coffee-3926035_1280.jpg);
+   background-repeat: no-repeat;
+   /*background-color: antiquewhite;*/
+background-size: cover;
+
+}
+
+
+p.one{
+    text-align: center;
+}
+a.th{
+    background-color: rgb(188, 134, 63);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+a.th:hover, a.th:active {
+    background-color:burlywood;
+  }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(14, 12, 12);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: bisque;
+  }
